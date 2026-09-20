@@ -1,59 +1,59 @@
-# 🌍 World Population Growth Analysis  
+# World Population Growth Analysis
 
-## 📌 Overview  
-This project explores **global population growth trends** using Python in Jupyter Notebook.  
-The analysis covers population size, yearly growth rates, and population density across years.  
+An exploratory data-analysis project examining global population growth, growth rates, and population density using Python and Jupyter Notebook.
 
-Dataset: **World Population Growth.csv**  
+## Project scope
 
----
+The notebook focuses on:
 
-## 🛠️ Tools & Libraries  
-- Python (Jupyter Notebook - Anaconda)  
-- **pandas, numpy** → data cleaning & preprocessing  
-- **matplotlib, seaborn** → data visualization  
-- **GitHub** → version control & project showcase  
+- cleaning numeric population fields
+- converting formatted values into analysis-ready numeric types
+- checking data quality
+- exploring population trends over time
+- visualizing changes in growth rate and density
 
----
+## Repository contents
 
-## ⚙️ Data Preprocessing  
-- Removed commas and `%` symbols from numerical columns  
-- Converted values to numeric datatypes (`int64`, `float`)  
-- Checked for missing/null values  
-- Ensured the dataset was clean for analysis  
+```text
+World-Population-Growth/
+├── Untitled2.ipynb
+├── World Population Growth.csv
+├── PROJECT_STATUS.md
+└── README.md
+```
 
----
+## Tools
 
-## 📊 Visualizations  
-1. **World Population Growth Over Time**  
-   Shows the steady rise in total population across years.  
+Python · Pandas · NumPy · Matplotlib · Seaborn · Jupyter Notebook
 
-   ![Population Growth Plot](plots/population_growth.png)  
+## Key analytical questions
 
-2. **Yearly Growth Rate (%)**  
-   Highlights periods of high and low population growth.  
+- How has total world population changed across the available years?
+- How has the annual population growth rate changed?
+- How has population density evolved alongside population size?
 
-   ![Growth Rate Plot](plots/growth_rate.png)  
+The notebook contains the source analysis. This cleaned README avoids placeholder values that were previously shown without verified figures.
 
-3. **Population Density Over Time**  
-   Shows how density has increased alongside population growth.  
+## Run
 
-   ![Density Plot](plots/density.png)  
+Open `Untitled2.ipynb` in Jupyter or VS Code and run it with `World Population Growth.csv` in the repository root.
 
----
+## Deployment
 
-## 🔎 Key Insights  
-- The dataset spans **[start year] to [end year]**.  
-- Population grew from **[X billion in start year]** to **[Y billion in end year]**.  
-- 📈 **Highest yearly growth rate:** [value]% in [year].  
-- 📉 **Lowest yearly growth rate:** [value]% in [year].  
-- 🌍 Despite a declining growth percentage, **absolute population continues to rise**, leading to higher density and resource pressure.  
+No deployment is necessary for the current project. It is an exploratory analysis, not an interactive application.
 
----
+## API integration
 
-## 🚀 Future Work  
-- Forecast future population growth using machine learning models  
-- Analyze continent/region-level population trends  
-- Explore links between population growth, urbanization, and environmental impact  
+None.
 
----
+## Portfolio role
+
+This is an early data-analysis project. It demonstrates basic cleaning and visualization, but it should stay unpinned while stronger end-to-end projects represent the main portfolio.
+
+## Next improvements
+
+- rename the notebook to something descriptive
+- create a `data/` and `notebooks/` structure
+- save final plots into a versioned `reports/figures/` folder
+- verify and document exact summary statistics from the notebook
+- optionally extend the work into time-series forecasting as a separate project
